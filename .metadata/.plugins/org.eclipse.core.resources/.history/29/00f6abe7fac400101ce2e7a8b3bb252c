@@ -1,0 +1,9 @@
+package core;
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		// 1.Arithmetic -> +,-,*,/,%
+		int a = 12,b =23;
+		System.out.println(a+b);
+	}
+}

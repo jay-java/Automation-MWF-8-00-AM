@@ -1,0 +1,27 @@
+package core;
+
+public class P002_Datatypes {
+	public static void main(String[] args) {
+		// Primitive -> byte,short,int,long,float,double,boolean,char
+		// Non-primitive ->array,String,class
+
+		// byte,short,int,long -> numeric(whole numbers)
+		// float, double -> numeric(whole+decimal)
+		// boolean -> true,false
+		// char -> single character
+
+		byte b = -128;// 1 (-128 to 127)
+		System.out.println("byte b = " + b);
+		short s = 12476;// 2 (-32768 to 32767)
+		System.out.println("short s = " + s);
+		int i = 12;// 4
+		System.out.println(i);
+		long l = 12;// 8
+		System.out.println(l);
+		
+		float f = 3.235f;//4
+		System.out.println(f);
+		double d = 4.354;//8
+		System.out.println(d);
+	}
+}
