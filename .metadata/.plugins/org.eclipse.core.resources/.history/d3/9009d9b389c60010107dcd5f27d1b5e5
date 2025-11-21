@@ -1,0 +1,14 @@
+package core;
+
+public class P003_TypeCasting {
+	public static void main(String[] args) {
+		int i = 12;
+		System.out.println(i);
+		double d = i;
+		System.out.println(d);
+
+		double d1 = 34.345;
+		int j = (int) d1;
+		System.out.println(j);
+	}
+}
