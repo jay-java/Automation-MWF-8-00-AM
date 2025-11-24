@@ -1,0 +1,13 @@
+package core;
+
+public class P007_Prime {
+	public static void main(String[] args) {
+		int num = 13;
+		int counter = 0;
+		for (int i = 1; i <= num; i++) {
+			if(num % i == 0) {
+				
+			}
+		}
+	}
+}

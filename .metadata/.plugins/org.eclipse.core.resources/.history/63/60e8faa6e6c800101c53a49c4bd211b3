@@ -1,0 +1,10 @@
+package core;
+
+public class P007_Prime {
+	public static void main(String[] args) {
+		int num = 13;
+		for(int i=1;i<=num;i++) {
+			
+		}
+	}
+}

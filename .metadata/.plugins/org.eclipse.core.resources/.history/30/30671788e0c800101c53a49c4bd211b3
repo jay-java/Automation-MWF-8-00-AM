@@ -1,0 +1,13 @@
+package core;
+
+public class P005_Loops {
+	public static void main(String[] args) {
+		// for loop
+//		for(initialization;condition;incre/decre) {}
+		System.out.println(1);
+		
+		// while loop
+		// do while
+		// for each
+	}
+}
