@@ -8,15 +8,13 @@ public class P006_Patterns {
 			}
 			System.out.println();
 		}
-		
-		
+
 		for (int i = 1; i <= 5; i++) {// row
 			for (int j = 1; j <= i; j++) { // col
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-		
 
 		for (int i = 1; i <= 5; i++) {// row
 			for (int j = 1; j <= i; j++) { // col
@@ -24,8 +22,6 @@ public class P006_Patterns {
 			}
 			System.out.println();
 		}
-		
-		
 
 		for (int i = 1; i <= 5; i++) {// row
 			for (int j = 1; j <= i; j++) { // col
@@ -33,17 +29,34 @@ public class P006_Patterns {
 			}
 			System.out.println();
 		}
-		
-		int counter =1;
+
+		int counter = 1;
 		for (int i = 1; i <= 5; i++) {// row
 			for (int j = 1; j <= i; j++) { // col
-				System.out.print(counter+" ");
+				System.out.print(counter + " ");
 				counter++;
 			}
 			System.out.println();
 		}
-		
-		
-		
+
+		for (int i = 1; i <= 5; i++) {// row
+			for (int s = 2; s <= i; s++) { // space
+				System.out.print(" ");
+			}
+			for (int j = 5; j >= i; j--) { // col
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		for (int i = 1; i <= 5; i++) {// row
+			for (int s = 4; s >= i; s--) { // space
+				System.out.print(" ");
+			}
+			for (int j = 1; j <= i; j++) { // col
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
 	}
 }

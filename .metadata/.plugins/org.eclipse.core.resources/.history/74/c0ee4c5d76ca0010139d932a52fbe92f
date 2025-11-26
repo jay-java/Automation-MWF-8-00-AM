@@ -1,0 +1,14 @@
+package core;
+//function/method
+class ABC{
+	//without return type without parameter
+	
+	//without return type with parameter
+	//with return type without parameter
+	//with return type with parameter
+}
+public class P008_Functions {
+	public static void main(String[] args) {
+	
+	}
+}
