@@ -1,0 +1,13 @@
+package core;
+
+import java.util.Scanner;
+
+public class P009_UserInput {
+	public static void main(String[] args) {
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter value of i = ");
+		i = sc.nextInt();
+		System.out.println("i = "+i);
+	}
+}

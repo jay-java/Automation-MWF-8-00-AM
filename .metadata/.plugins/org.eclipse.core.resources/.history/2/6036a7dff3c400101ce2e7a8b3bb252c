@@ -1,9 +1,0 @@
-package core;
-
-public class P001_First {
-	public static void main(String[] args) {
-		System.out.print("hello java 345676$&*&&~+_+ ");
-		System.out.println("hello again");
-		System.out.println("hello again");
-	}
-}

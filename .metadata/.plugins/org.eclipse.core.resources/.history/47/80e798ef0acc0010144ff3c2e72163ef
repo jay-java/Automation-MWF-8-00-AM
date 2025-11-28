@@ -1,0 +1,44 @@
+package core;
+
+import java.sql.Date;
+import java.util.Scanner;
+
+public class P010_Array {
+	public static void main(String[] args) {
+		int i = 1;
+		System.out.println(i);
+		int arr[] = { 3451, 4362, 5463, 5674, 7875, 986, 9097, 2348, 3469, 67810 };
+		for (int index = 0; index < arr.length; index++) {
+			System.out.println(arr[index]);
+		}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter size of array : ");
+		int size = sc.nextInt();
+		int ar[] = new int[size];
+		for (int index = 0; index < ar.length; index++) {
+			System.out.print("enter element at ar[" + index + "] : ");
+			ar[index] = sc.nextInt();
+		}
+		int sum =0;
+		for (int index = 0; index < ar.length; index++) {
+			sum = sum +ar[index];
+			System.out.println("sum : "+sum);
+		}
+		System.out.println("sum : "+sum);
+		
+		System.out.println("enter num to search in array : ");
+		int num = sc.nextInt();
+		
+		int counter =0;
+		for (int index = 0; index < ar.length; index++) {
+			if(num == ar[index]) {
+				counter++;
+			}
+		}
+		if(counter> 0) {
+			
+		}
+		
+		
+	}
+}
