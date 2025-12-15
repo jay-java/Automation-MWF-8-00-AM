@@ -1,0 +1,14 @@
+package core;
+
+
+class Parent{
+	
+}
+class Child extends Parent{
+	
+}
+public class P011_Super {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,26 @@
+package core;
+class Parent {
+	public void call() {
+		System.out.println("call method in parent class");
+	}
+}
+
+class Child extends Parent {
+	public void call() {
+		super.call();
+		System.out.println("call method in child class");
+	}
+
+	public void fun() {
+		System.out.println("fun in child");
+	}
+}
+
+public class P011_Super {
+	public static void main(String[] args) {
+		Child c = new Child();
+		c.call();
+
+		c.fun();
+	}
+}

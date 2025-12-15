@@ -1,6 +1,5 @@
 package core;
 
-import java.sql.Date;
 import java.util.Scanner;
 
 public class P010_Array {
@@ -40,6 +39,6 @@ public class P010_Array {
 		} else {
 			System.out.println("not exist");
 		}
-
+		
 	}
 }

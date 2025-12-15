@@ -1,8 +1,0 @@
-package core;
-
-public class P007_Prime {
-	public static void main(String[] args) {
-		int num = 13;
-		
-	}
-}
