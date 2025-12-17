@@ -1,0 +1,7 @@
+package core;
+//list/set/map -> collection framework
+public class P014_List {
+	public static void main(String[] args) {
+		
+	}
+}

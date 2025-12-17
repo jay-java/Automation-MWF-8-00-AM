@@ -1,0 +1,13 @@
+package core;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//list/set/map -> collection framework
+public class P014_List {
+//	<generics>
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		
+	}
+}
