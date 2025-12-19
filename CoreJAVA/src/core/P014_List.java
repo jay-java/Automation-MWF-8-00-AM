@@ -21,9 +21,9 @@ public class P014_List {
 		System.out.println(list.contains(123));
 		list.remove(5);
 		System.out.println(list);
-		
+
 		Iterator itr = list.iterator();
-		while(itr.hasNext()) {
+		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
 	}

@@ -1,0 +1,17 @@
+package core;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class P017_Map {
+	public static void main(String[] args) {
+		Map map = new HashMap();
+		map.put(1,"c");
+		map.put("c++",2);
+		map.put(3,"java");
+		map.put(false, 'r');
+		map.put(345.435, "php");
+		map.put(1, "python");
+		System.out.println(map);
+	}
+}
