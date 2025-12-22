@@ -1,7 +1,0 @@
-package core;
-
-public class P011_Super {
-	public static void main(String[] args) {
-		
-	}
-}
