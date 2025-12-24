@@ -8,15 +8,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class P001_OpenBrowser {
 	public static void main(String[] args) throws InterruptedException {
 		// 1.Chrome
-//		System.setProperty("webdriver.chrome.driver",
-//				"C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-//		WebDriver driver = new ChromeDriver();
-//
-//		driver.get("https://www.facebook.com/");
-//		driver.manage().window().maximize();
-//
-//		Thread.sleep(3000);
-//		driver.close();
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		driver.close();
 
 		// 2.Firefox
 //		System.setProperty("webdriver.gecko.driver",
@@ -28,11 +26,11 @@ public class P001_OpenBrowser {
 //		driver.close();
 
 		// 3.Edge
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\Admin\\Downloads\\edgedriver_win64\\msedgedriver.exe");
-		WebDriver driver = new EdgeDriver();
-		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();
-		Thread.sleep(3000);
-		driver.close();
+//		System.setProperty("webdriver.edge.driver", "C:\\Users\\Admin\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+//		WebDriver driver = new EdgeDriver();
+//		driver.get("https://www.facebook.com/");
+//		driver.manage().window().maximize();
+//		Thread.sleep(3000);
+//		driver.close();
 	}
 }
