@@ -21,7 +21,6 @@ INDEX VERSION 1.134+C:\Users\Admin\Automation MWF 8-00 to 9-30\.metadata\.plugin
 1288848795.index
 650162149.index
 2596717660.index
-2933130940.index
 2886025073.index
 1733572996.index
 1678915386.index
