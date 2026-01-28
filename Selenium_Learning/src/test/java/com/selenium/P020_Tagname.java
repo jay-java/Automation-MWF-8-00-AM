@@ -33,7 +33,6 @@ public class P020_Tagname {
 		for (String s : str) {
 			System.out.println(s);
 			driver.findElement(By.linkText(s)).click();
-
 			Thread.sleep(2000);
 
 			driver.navigate().back();
