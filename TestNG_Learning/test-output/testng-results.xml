@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-02T09:15:33 IST" name="Suite" finished-at="2026-02-02T09:15:33 IST" duration-ms="208">
+    <groups>
+    </groups>
+    <test started-at="2026-02-02T09:15:33 IST" name="Test1" finished-at="2026-02-02T09:15:33 IST" duration-ms="95">
+      <class name="hospital.PatientAppointment">
+        <test-method signature="bookAppointment()[pri:0, instance:hospital.PatientAppointment@477b4cdf]" started-at="2026-02-02T09:15:33 IST" name="bookAppointment" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAppointment -->
+        <test-method signature="checkAppointmentStatus()[pri:0, instance:hospital.PatientAppointment@477b4cdf]" started-at="2026-02-02T09:15:33 IST" name="checkAppointmentStatus" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAppointmentStatus -->
+        <test-method signature="filterDoctor()[pri:0, instance:hospital.PatientAppointment@477b4cdf]" started-at="2026-02-02T09:15:33 IST" name="filterDoctor" finished-at="2026-02-02T09:15:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterDoctor -->
+        <test-method signature="searchDoctor()[pri:0, instance:hospital.PatientAppointment@477b4cdf]" started-at="2026-02-02T09:15:33 IST" name="searchDoctor" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDoctor -->
+      </class> <!-- hospital.PatientAppointment -->
+      <class name="hospital.Doctor">
+        <test-method signature="changePassword()[pri:0, instance:hospital.Doctor@682b2fa]" started-at="2026-02-02T09:15:33 IST" name="changePassword" finished-at="2026-02-02T09:15:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method signature="createAccount()[pri:0, instance:hospital.Doctor@682b2fa]" started-at="2026-02-02T09:15:33 IST" name="createAccount" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="login()[pri:0, instance:hospital.Doctor@682b2fa]" started-at="2026-02-02T09:15:33 IST" name="login" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:hospital.Doctor@682b2fa]" started-at="2026-02-02T09:15:33 IST" name="logout" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- hospital.Doctor -->
+      <class name="hospital.DoctorAppointment">
+        <test-method signature="approveAppointment()[pri:0, instance:hospital.DoctorAppointment@f5958c9]" started-at="2026-02-02T09:15:33 IST" name="approveAppointment" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveAppointment -->
+        <test-method signature="checkPendingBookings()[pri:0, instance:hospital.DoctorAppointment@f5958c9]" started-at="2026-02-02T09:15:33 IST" name="checkPendingBookings" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPendingBookings -->
+        <test-method signature="givePrescription()[pri:0, instance:hospital.DoctorAppointment@f5958c9]" started-at="2026-02-02T09:15:33 IST" name="givePrescription" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givePrescription -->
+        <test-method signature="searchPatient()[pri:0, instance:hospital.DoctorAppointment@f5958c9]" started-at="2026-02-02T09:15:33 IST" name="searchPatient" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPatient -->
+      </class> <!-- hospital.DoctorAppointment -->
+      <class name="hospital.Patient">
+        <test-method signature="changePassword()[pri:0, instance:hospital.Patient@77c2494c]" started-at="2026-02-02T09:15:33 IST" name="changePassword" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method signature="createAccount()[pri:0, instance:hospital.Patient@77c2494c]" started-at="2026-02-02T09:15:33 IST" name="createAccount" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="login()[pri:0, instance:hospital.Patient@77c2494c]" started-at="2026-02-02T09:15:33 IST" name="login" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:hospital.Patient@77c2494c]" started-at="2026-02-02T09:15:33 IST" name="logout" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- hospital.Patient -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-02-02T09:15:33 IST" name="Test2" finished-at="2026-02-02T09:15:33 IST" duration-ms="43">
+      <class name="hospital.Doctor">
+        <test-method signature="changePassword()[pri:0, instance:hospital.Doctor@5b94b04d]" started-at="2026-02-02T09:15:33 IST" name="changePassword" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method signature="createAccount()[pri:0, instance:hospital.Doctor@5b94b04d]" started-at="2026-02-02T09:15:33 IST" name="createAccount" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="login()[pri:0, instance:hospital.Doctor@5b94b04d]" started-at="2026-02-02T09:15:33 IST" name="login" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:hospital.Doctor@5b94b04d]" started-at="2026-02-02T09:15:33 IST" name="logout" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- hospital.Doctor -->
+      <class name="hospital.DoctorAppointment">
+        <test-method signature="approveAppointment()[pri:0, instance:hospital.DoctorAppointment@4c39bec8]" started-at="2026-02-02T09:15:33 IST" name="approveAppointment" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveAppointment -->
+        <test-method signature="checkPendingBookings()[pri:0, instance:hospital.DoctorAppointment@4c39bec8]" started-at="2026-02-02T09:15:33 IST" name="checkPendingBookings" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPendingBookings -->
+        <test-method signature="givePrescription()[pri:0, instance:hospital.DoctorAppointment@4c39bec8]" started-at="2026-02-02T09:15:33 IST" name="givePrescription" finished-at="2026-02-02T09:15:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givePrescription -->
+        <test-method signature="searchPatient()[pri:0, instance:hospital.DoctorAppointment@4c39bec8]" started-at="2026-02-02T09:15:33 IST" name="searchPatient" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPatient -->
+      </class> <!-- hospital.DoctorAppointment -->
+      <class name="hospital.Patient">
+        <test-method signature="changePassword()[pri:0, instance:hospital.Patient@8c3b9d]" started-at="2026-02-02T09:15:33 IST" name="changePassword" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method signature="createAccount()[pri:0, instance:hospital.Patient@8c3b9d]" started-at="2026-02-02T09:15:33 IST" name="createAccount" finished-at="2026-02-02T09:15:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="login()[pri:0, instance:hospital.Patient@8c3b9d]" started-at="2026-02-02T09:15:33 IST" name="login" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:hospital.Patient@8c3b9d]" started-at="2026-02-02T09:15:33 IST" name="logout" finished-at="2026-02-02T09:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- hospital.Patient -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
