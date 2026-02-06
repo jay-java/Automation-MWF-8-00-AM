@@ -7,6 +7,7 @@
 			<class name="hospital.PatientAppointment" />
 			<class name="hospital.Patient" />
 			<class name="hospital.DoctorAppointment" />
+			<class name="hospital.Payment"></class>
 		</classes>
 	</test>
 

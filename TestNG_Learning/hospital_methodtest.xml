@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="hospital.Doctor">
+				<methods>
+					<!-- <include name="login"></include> -->
+					<exclude name="createAccount"></exclude>
+				</methods>
+			</class>
+			<class name="hospital.PatientAppointment" >
+				<methods>
+					<include name="checkPendingBookings"></include>
+				</methods>
+			</class>
+			<class name="hospital.Patient" />
+			<class name="hospital.DoctorAppointment" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

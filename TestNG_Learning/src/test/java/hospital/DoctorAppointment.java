@@ -9,12 +9,12 @@ public class DoctorAppointment {
 		System.out.println("saerch patient");
 	}
 
-	@Test
+	@Test(groups = "checkUPI")
 	public void checkPendingBookings() {
 		System.out.println("doc check pending bookings");
 	}
 
-	@Test
+	@Test(groups = "checkUPI")
 	public void approveAppointment() {
 		System.out.println("approve appointment");
 	}

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PatientAppointment {
 
-	@Test
+	@Test(groups = "checkUPI")
 	public void searchDoctor() {
 		System.out.println("patient search doctor");
 	}
@@ -14,7 +14,7 @@ public class PatientAppointment {
 		System.out.println("patient filter doctor");
 	}
 
-	@Test
+	@Test(groups = "checkUPI")
 	public void bookAppointment() {
 		System.out.println("patient book appointment");
 	}

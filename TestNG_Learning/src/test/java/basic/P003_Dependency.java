@@ -11,7 +11,7 @@ public class P003_Dependency {
 
 	@Test(priority = 2)
 	public void login() {
-//		int i = 10 / 0;
+		int i = 10  / 0;
 		System.out.println("login : ");
 	}
 
