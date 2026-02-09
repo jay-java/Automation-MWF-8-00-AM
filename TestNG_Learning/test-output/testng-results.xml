@@ -1,64 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-06T09:12:06 IST" name="Suite" finished-at="2026-02-06T09:12:09 IST" duration-ms="2638">
+  <suite started-at="2026-02-09T08:56:46 IST" name="Default suite" finished-at="2026-02-09T08:56:53 IST" duration-ms="7059">
     <groups>
     </groups>
-    <test started-at="2026-02-06T09:12:06 IST" name="Test" finished-at="2026-02-06T09:12:09 IST" duration-ms="2638">
-      <class name="fbTestLIstener.FBTest">
-        <test-method signature="loginTest(org.testng.ITestContext)[pri:0, instance:fbTestLIstener.FBTest@6150c3ec]" started-at="2026-02-06T09:12:06 IST" name="loginTest" finished-at="2026-02-06T09:12:08 IST" duration-ms="2424" status="FAIL">
+    <test started-at="2026-02-09T08:56:46 IST" name="Default test" finished-at="2026-02-09T08:56:53 IST" duration-ms="7059">
+      <class name="dataProvider.DataProviderTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:46 IST" name="openBrowser" finished-at="2026-02-09T08:56:48 IST" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:48 IST" name="login" data-provider="dp" finished-at="2026-02-09T08:56:48 IST" duration-ms="157" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@272ed83b]]>
+                <![CDATA[correct@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[correct@123]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at org.testng.Assert.assertFalse(Assert.java:89)
-at fbTestLIstener.FBTest.loginTest(FBTest.java:24)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- fbTestLIstener.FBTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:48 IST" name="openBrowser" finished-at="2026-02-09T08:56:50 IST" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:50 IST" name="login" data-provider="dp" finished-at="2026-02-09T08:56:50 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrect@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[correct@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:50 IST" name="openBrowser" finished-at="2026-02-09T08:56:51 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:51 IST" name="login" data-provider="dp" finished-at="2026-02-09T08:56:52 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correct@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrect@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:52 IST" name="openBrowser" finished-at="2026-02-09T08:56:53 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataProvider.DataProviderTest@6ed3ccb2]" started-at="2026-02-09T08:56:53 IST" name="login" data-provider="dp" finished-at="2026-02-09T08:56:53 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrect@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrect@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- dataProvider.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

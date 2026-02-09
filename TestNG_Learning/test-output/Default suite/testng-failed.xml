@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basic.P003_Dependency">
+      <class name="crossBrowser.CrossBrowser">
         <methods>
-          <include name="login"/>
-          <include name="profileManage"/>
+          <include name="browserTest"/>
         </methods>
-      </class> <!-- basic.P003_Dependency -->
+      </class> <!-- crossBrowser.CrossBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
