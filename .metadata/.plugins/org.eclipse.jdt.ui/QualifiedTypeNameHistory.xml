@@ -58,6 +58,6 @@
     <fullyQualifiedTypeName name="driverConnection.DriverConnection"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
     <fullyQualifiedTypeName name="com.ExcellReader"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
 </qualifiedTypeNameHistroy>
